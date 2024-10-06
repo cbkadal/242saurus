@@ -140,7 +140,7 @@ nvm ls-remote
 ```
 
 You might have previously installed node.js before. For example,
-* the latest LTS version (NEW_NODE_VERSION) is "v20.13.1"
+* the latest LTS version (NEW_NODE_VERSION) is "v20.18.0"
 * the current installed version (OLD_NODE_VERSION) is "v20.11.1"
 
 
