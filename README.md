@@ -306,6 +306,7 @@ To upgrade Docusaurus packages with the latest version, run the following comman
 # USER privilege.
 npm i @docusaurus/core@latest @docusaurus/plugin-ideal-image@latest @docusaurus/preset-classic@latest \
       @docusaurus/tsconfig@latest @docusaurus/types@latest
+npm audit fix
 
 ```
 
