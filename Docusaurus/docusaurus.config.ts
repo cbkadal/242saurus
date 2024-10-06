@@ -47,7 +47,7 @@ const config: Config = {
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
+          onUntruncatedBlogPosts: 'ignore',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -121,7 +121,7 @@ const config: Config = {
         },
       ],
       copyright: `Copyright © 2023-2024 BinKadal, Sdn, Bhd. ---
-      REV: Sun 06 Oct 2024 18:00
+      REV: Sun 06 Oct 2024 19:00
       `,
       // REV: Thu 18 Apr 2024 11:00
       // REV: Thu 04 Apr 2024 21:00

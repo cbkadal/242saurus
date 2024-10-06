@@ -1,23 +1,42 @@
-yangshun:
-  name: Yangshun Tay
-  title: Front End Engineer @ Facebook
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
-  page: true
-  socials:
-    x: yangshunz
-    github: yangshun
+abuass:
+  name: Abu's Ass
+  title: Janitor
+  url: https://github.com/abuass
+  image_url: https://github.com/abuass.png
 
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
-  page:
-    # customize the url of the author page at /blog/authors/<permalink>
-    permalink: '/all-sebastien-lorber-articles'
-  socials:
-    x: sebastienlorber
-    linkedin: sebastienlorber
-    github: slorber
-    newsletter: https://thisweekinreact.com
+cbkadal:
+  name: Cicak BinKadal
+  title: Sdn, Bhd.
+  url: https://github.com/cbkadal
+  image_url: https://github.com/cbkadal.png
+
+demosuremo:
+  name: Demo Suremo
+  title: Demoman
+  url: https://github.com/demosuremo
+  image_url: https://github.com/demosuremo.png
+
+dullatip:
+  name: Abdul Latip
+  title: Janitor
+  url: https://github.com/dullatip
+  image_url: https://github.com/dullatip.png
+
+jwal1260:
+  name: Johnnie Walker
+  title: Green Label
+  url: https://github.com/jwal1260
+  image_url: https://github.com/jwal1260.png
+
+kutakada:
+  name: K.K. Kutakada
+  title: Ronin
+  url: https://github.com/kutakada
+  image_url: https://github.com/kutakada.png
+
+vrtass:
+  name: Virtual Ass
+  title: Beast of Burden
+  url: https://github.com/vrtass
+  image_url: https://github.com/vrtass.png
+
