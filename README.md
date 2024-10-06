@@ -266,6 +266,7 @@ yarn deploy
 ### Restore From GitHub
 
 ```
+# USER privilege.
 # Inside repo "242saurus/"
 cd Docusaurus/
 npm install
@@ -275,6 +276,7 @@ npm install
 ### Image Plugin
 
 ```
+# USER privilege.
 npm install --save @docusaurus/plugin-ideal-image
 
 ```
@@ -282,6 +284,7 @@ npm install --save @docusaurus/plugin-ideal-image
 ### Raw Loader
 
 ```
+# USER privilege.
 npm install --save raw-loader
 
 ```
@@ -289,6 +292,7 @@ npm install --save raw-loader
 ### Fix
 
 ```
+# USER privilege.
 npm audit fix
 
 ```
@@ -297,9 +301,11 @@ npm audit fix
                                                                                                                   
 To upgrade Docusaurus packages with the latest version, run the following command:    
 
-```
-npm i @docusaurus/core@latest @docusaurus/plugin-ideal-image@latest @docusaurus/preset-classic@latest      
-           @docusaurus/module-type-aliases@latest @docusaurus/tsconfig@latest @docusaurus/types@latest
+``` 
+# @docusaurus/module-type-aliases@latest
+# USER privilege.
+npm i @docusaurus/core@latest @docusaurus/plugin-ideal-image@latest @docusaurus/preset-classic@latest \
+      @docusaurus/tsconfig@latest @docusaurus/types@latest
 
 ```
 
@@ -310,8 +316,7 @@ npm i @docusaurus/core@latest @docusaurus/plugin-ideal-image@latest @docusaurus/
 
 [&#x213C;](#)<br id="idxXXX"><br>
 
-<pre><strong>
-REV: Sun 06 Oct 2024 17:00
+<pre><strong>REV: Sun 06 Oct 2024 17:00
 REV: Sun 06 Oct 2024 14:00
 REV: Sat 25 May 2024 13:00
 REV: Thu 04 Apr 2024 21:00
