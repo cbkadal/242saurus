@@ -31,8 +31,8 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // editUrl:
+          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
@@ -42,8 +42,8 @@ const config: Config = {
           },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // editUrl:
+          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -60,23 +60,28 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'HOME',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'Logo',
+        src: 'img/cbkadal.jpg',
       },
       items: [
         {
-          type: 'docSidebar',
+          label:     'Tutorial',
           sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Tutorial',
+          position:  'left',
+          type:      'docSidebar',
+          to:        '/docs/intro',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
-          position: 'right',
+          label:     'Blog', 
+          position:  'left',
+          to:        '/blog', 
+        },
+        {
+          label:     'GitHub',
+          position:  'right',
+          href:      'https://github.com/cbkadal/242saurus',
         },
       ],
     },
@@ -96,14 +101,6 @@ const config: Config = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
               label: 'Twitter',
               href: 'https://twitter.com/docusaurus',
             },
@@ -118,18 +115,27 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href:  'https://github.com/cbkadal/242saurus',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © 2023-2024 BinKadal, Sdn, Bhd. ---
+      REV: Sun 06 Oct 2024 18:00
+      `,
+      // REV: Thu 18 Apr 2024 11:00
+      // REV: Thu 04 Apr 2024 21:00
+      // REV: Thu 28 Mar 2024 00:00
+      // REV: Wed 27 Mar 2024 23:00
+      // REV: Tue 20 Jun 2023 09:30
+      // STRT Sat 29 Apr 2023 13:00
     },
     prism: {
-      theme: prismThemes.github,
+      theme:     prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
   } satisfies Preset.ThemeConfig,
 };
 
 export default config;
+
