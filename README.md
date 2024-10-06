@@ -293,7 +293,7 @@ npm audit fix
 
 ```
 
-### UPDATE 3.1.1 → 3.2.0                                          
+### UPGRADE DOCUSAURUS
                                                                                                                   
 To upgrade Docusaurus packages with the latest version, run the following command:    
 

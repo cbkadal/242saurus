@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@docusaurus/plugin-ideal-image": "^3.5.2",
+    "raw-loader": "^4.0.2"
+  }
+}
