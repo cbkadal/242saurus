@@ -196,11 +196,11 @@ npm outdated
 ```
 
 [&#x213C;](#)<br id="idx009b">
-### Example: Update npm 10.8.0
+### Example: Update npm 10.9.0
 
 ```
 # USER privilege.
-npm install -g npm@10.8.0
+npm install -g npm@10.9.0
 
 ```
 
