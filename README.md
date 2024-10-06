@@ -22,6 +22,8 @@
 [&#x213C;](#)<br id="idx001">
 ## Network Address Translation (NAT) Settings
 
+### VirtualBox
+
 Docusaurus is using local port 3000. 
 On your VirtualBox, you must redirect/translate the local port 3000 to the host port 5001.
 
@@ -33,6 +35,8 @@ On your VirtualBox, you must redirect/translate the local port 3000 to the host 
       * 127.0.0.1:5001 (Host) --- 10.0.2.15:3000 (Guest)
 
 <br><img src="images/VBOX-NAT.jpg"  width="960"><br>
+
+### UTM
 
 Docusaurus is using local port 3000. 
 On your UTM, you must redirect/translate the local port 3000 to the host port 5001.
