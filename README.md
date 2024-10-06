@@ -115,7 +115,7 @@ aptitude purge cmdtest
 ## Install NVM/node.js (user)
 Docusaurus needs a huge JavaScript runtime environment package called "node.js." 
 Check https://github.com/nvm-sh/nvm/releases for the latest NVM package release. 
-Currently, it is version 0.39.7.
+Currently, it is version 0.40.1.
 
 ```
 # USER privilege.
