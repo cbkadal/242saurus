@@ -3,7 +3,7 @@
 [&#x213C;](#idxXXX)<br id="idx000">
 ## Table of Content (Toc)
 * [Network Address Translation (NAT) Settings](#idx001)
-* [GitHub Repo 241saurus](#idx002a)
+* [GitHub Repo 242saurus](#idx002a)
   * [File .gitignore](#idx002)
 * [Debian Packages](#idx003)
 * [Removed Packages](#idx004)
@@ -47,12 +47,12 @@ On your VirtualBox, you must redirect/translate the local port 3000 to the host 
 <br><img src="images/debM1-forward.jpg"  width="960"><br>
 
 [&#x213C;](#)<br id="idx002a">
-## GitHub Repo 241saurus
+## GitHub Repo 242saurus
 
 * Create a new [GitHub](https://github.com/) repo.
   * New Repository
-  * Repository Name: "241saurus"
-  * Description: "241saurus"
+  * Repository Name: "242saurus"
+  * Description: "242saurus"
   * Public
   * Add README.md
   * Add .gitignore: NODE
@@ -60,7 +60,7 @@ On your VirtualBox, you must redirect/translate the local port 3000 to the host 
 * CLONE Your GitHub Repo. E.g.
 
 ```
-git clone git@github.com:cbkadal/241saurus.git
+git clone git@github.com:cbkadal/242saurus.git
 
 ```
 * REMEMBER: You are not **CBKADAL**!
@@ -73,7 +73,7 @@ git clone git@github.com:cbkadal/241saurus.git
 Don't push the node.js files to GitHub! 
 If you missed the .gitignore file option during the repo initialization process, 
 copy the following into your .gitignore file:
-https://raw.githubusercontent.com/cbkadal/241saurus/master/.gitignore
+https://raw.githubusercontent.com/cbkadal/242saurus/master/.gitignore
 
 [&#x213C;](#)<br id="idx003">
 ## Debian Packages (root)
@@ -200,7 +200,7 @@ npm install -g npm@10.8.0
 [&#x213C;](#)<br id="idx010">
 ## Install Docusaurus (user)
 
-Go to your "241saurus/" (repo) folder.
+Go to your "242saurus/" (repo) folder.
 
 ```
 # USER privilege.
@@ -229,13 +229,13 @@ Goto (cd) folder "Docusaurus/" and edit file "docusaurus.config.ts".
 Remember, you are not "cbkadal".
 
 ```
-  title: '241saurus',               // Or else
+  title: '242saurus',               // Or else
   tagline: 'This is the Way!',      // Or else
   favicon: 'img/favicon.ico',       // Or else
   url: 'https://cbkadal.github.io', // Or else
-  baseUrl: '/241saurus/',           // Or else
+  baseUrl: '/242saurus/',           // Or else
   organizationName: 'cbkadal',      // (Usually your GitHub org/user name)
-  projectName: '241saurus',         // (Usually your repo name)
+  projectName: '242saurus',         // (Usually your repo name)
   trailingSlash: true,              // "true" or "false"
 
 ```
@@ -259,7 +259,7 @@ yarn deploy
 ### Restore From GitHub
 
 ```
-# Inside repo "241saurus/"
+# Inside repo "242saurus/"
 cd Docusaurus/
 npm install
 
