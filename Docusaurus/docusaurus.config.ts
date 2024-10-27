@@ -121,11 +121,11 @@ const config: Config = {
         },
       ],
       copyright: `Copyright © 2023-2024 BinKadal, Sdn, Bhd. ---
-      REV: Sun 06 Oct 2024 19:00
+      REV: Sun 27 Oct 2024 16:00
       `,
+      // REV: Sun 06 Oct 2024 19:00
       // REV: Thu 18 Apr 2024 11:00
       // REV: Thu 04 Apr 2024 21:00
-      // REV: Thu 28 Mar 2024 00:00
       // REV: Wed 27 Mar 2024 23:00
       // REV: Tue 20 Jun 2023 09:30
       // STRT Sat 29 Apr 2023 13:00
